@@ -6,7 +6,7 @@
 [![Packagist](https://img.shields.io/packagist/dt/langleyfoxall/math_eval.svg)](https://packagist.org/packages/langleyfoxall/math_eval/stats)
 
 This PHP package provides a `math_eval` helper function, that allows
-allows safe evaluation mathematical expressions, within the use of the
+allows safe evaluation mathematical expressions, without the use of the
 potentially dangerous `eval` function.
 
 ## Installation
@@ -45,4 +45,4 @@ $fifteen = math_eval('x * y', ['x' => 3, 'y' => 5]);
 
 ## Credit
 
-This package makes use the [`mossadal/math-parser`](https://github.com/mossadal/math-parser) package.
+This package makes use of the [`mossadal/math-parser`](https://github.com/mossadal/math-parser) package.
