@@ -6,8 +6,7 @@ use MathParser\Interpreting\Evaluator;
 use MathParser\StdMathParser;
 
 /**
- * Class MathEvaluator
- * @package LangleyFoxall\MathEval
+ * Class MathEvaluator.
  */
 class MathEvaluator
 {
@@ -22,6 +21,7 @@ class MathEvaluator
 
     /**
      * MathEvaluator constructor.
+     *
      * @param $expression
      * @param array|null $variables
      */
