@@ -37,3 +37,7 @@ It is also possible to pass expression variables. See the examples below.
 $ten = math_eval('a + b', ['a' => 7, 'b' => 3]);
 $fifteen = math_eval('x * y', ['x' => 3, 'y' => 5]);
 ```
+
+## Credit
+
+This package makes use the [`mossadal/math-parser`](https://github.com/mossadal/math-parser) package.
