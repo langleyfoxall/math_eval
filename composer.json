@@ -1,6 +1,6 @@
 {
     "name": "langleyfoxall/math_eval",
-    "description": "✖️➕➖➗ `math_eval` safetly evaluates mathematical expressions.",
+    "description": "✖️➕➖➗ `math_eval` safely evaluates mathematical expressions",
     "type": "library",
     "license": "LGPL-3.0-only",
     "authors": [
