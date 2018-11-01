@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class EvaluationsWithVariablesTest extends TestCase
 {
-
     public function expressionsDataProvider()
     {
         return [

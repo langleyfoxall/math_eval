@@ -6,12 +6,11 @@ use PHPUnit\Framework\TestCase;
 
 class EvaluationsTest extends TestCase
 {
-
     public function expressionsDataProvider()
     {
         return [
             ['1 + 1', 2],
-            ['7 - 2' , 5],
+            ['7 - 2', 5],
             ['2 * 5', 10],
             ['6 / 2', 3],
             ['5 ^ 2', 25],
