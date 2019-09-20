@@ -5,8 +5,8 @@
 [![StyleCI](https://github.styleci.io/repos/155715123/shield?branch=master)](https://github.styleci.io/repos/155715123)
 [![Packagist](https://img.shields.io/packagist/dt/langleyfoxall/math_eval.svg)](https://packagist.org/packages/langleyfoxall/math_eval/stats)
 
-This PHP package provides a `math_eval` helper function, that allows
-allows safe evaluation mathematical expressions, without the use of the
+This PHP package provides a `math_eval` helper function, that
+allows safe evaluation of mathematical expressions, without the use of the
 potentially dangerous `eval` function.
 
 ## Installation
