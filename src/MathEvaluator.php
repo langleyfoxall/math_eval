@@ -2,6 +2,7 @@
 
 namespace LangleyFoxall\MathEval;
 
+use LangleyFoxall\MathEval\Exception\InvalidExpression;
 use MathParser\Interpreting\Evaluator;
 use MathParser\StdMathParser;
 
@@ -33,10 +34,14 @@ class MathEvaluator
 
     /**
      * @return mixed
+     * @throws InvalidExpression
      */
     public function evaluate()
     {
         $abstractSyntaxTree = $this->parse();
+        if ($abstractSyntaxTree === null) {
+            throw new InvalidExpression(sprintf('The given expression "%s" could not be evaluated', $this->expression));
+        }
 
         $evaluator = new Evaluator();
 
