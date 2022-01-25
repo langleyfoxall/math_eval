@@ -2,6 +2,7 @@
 
 namespace LangleyFoxall\MathEval\Tests\Unit;
 
+use LangleyFoxall\MathEval\Exception\InvalidExpression;
 use PHPUnit\Framework\TestCase;
 
 class EvaluationsTest extends TestCase
@@ -23,5 +24,11 @@ class EvaluationsTest extends TestCase
     public function testEvaluation($expression, $expectedResult)
     {
         $this->assertEquals($expectedResult, math_eval($expression));
+    }
+
+    public function testEvaluationInvalidExpressionThrows()
+    {
+        $this->expectException(InvalidExpression::class);
+        math_eval(' + ');
     }
 }
