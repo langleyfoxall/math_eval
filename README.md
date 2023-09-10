@@ -14,7 +14,7 @@ potentially dangerous `eval` function.
 The `math_eval` package can be easily installed using Composer. Just 
 run the following command from the root of your project.
 
-```
+```bash
 composer require "langleyfoxall/math_eval"
 ```
 
