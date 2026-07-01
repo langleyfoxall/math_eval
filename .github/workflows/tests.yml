@@ -6,6 +6,7 @@ on:
 
 jobs:
   test:
+    name: test (${{ matrix.php-version }})
     runs-on: ubuntu-latest
 
     strategy:
