@@ -1,6 +1,6 @@
 # ✖️➕➖➗ Math Eval Helper Function
 
-[![Build Status](https://travis-ci.org/langleyfoxall/math_eval.svg?branch=master)](https://travis-ci.org/langleyfoxall/math_eval)
+[![Tests](https://github.com/langleyfoxall/math_eval/actions/workflows/tests.yml/badge.svg)](https://github.com/langleyfoxall/math_eval/actions/workflows/tests.yml)
 [![Coverage Status](https://coveralls.io/repos/github/langleyfoxall/math_eval/badge.svg?branch=master)](https://coveralls.io/github/langleyfoxall/math_eval?branch=master)
 [![StyleCI](https://github.styleci.io/repos/155715123/shield?branch=master)](https://github.styleci.io/repos/155715123)
 [![Packagist](https://img.shields.io/packagist/dt/langleyfoxall/math_eval.svg)](https://packagist.org/packages/langleyfoxall/math_eval/stats)
