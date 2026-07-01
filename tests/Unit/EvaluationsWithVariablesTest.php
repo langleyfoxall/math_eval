@@ -2,11 +2,12 @@
 
 namespace LangleyFoxall\MathEval\Tests\Unit;
 
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 class EvaluationsWithVariablesTest extends TestCase
 {
-    public function expressionsDataProvider()
+    public static function expressionsDataProvider()
     {
         return [
             ['a + b', ['a' => 2, 'b' => 3], 5],
@@ -17,9 +18,7 @@ class EvaluationsWithVariablesTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider expressionsDataProvider
-     */
+    #[DataProvider('expressionsDataProvider')]
     public function testEvaluation($expression, $variables, $expectedResult)
     {
         $this->assertEquals($expectedResult, math_eval($expression, $variables));
